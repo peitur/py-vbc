@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+lib/python*
 lib64/
 parts/
 sdist/
@@ -24,6 +24,13 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+
+bin/activate*
+bin/easy*
+bin/pip*
+bin/python*
+bin/wheel
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
